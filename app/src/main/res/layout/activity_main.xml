@@ -6,6 +6,37 @@
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="258dp"
+        android:text="Pilih Kategori"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="300dp"
+        android:onClick="list_food"
+        app:srcCompat="@drawable/food0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="400dp"
+        android:onClick="list_drink"
+        app:srcCompat="@drawable/drink" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -23,14 +54,14 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:scaleType="fitStart"
-                app:srcCompat="@drawable/image1" />
+                app:srcCompat="@drawable/slideshow1" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:scaleType="fitStart"
-                app:srcCompat="@drawable/image2" />
+                app:srcCompat="@drawable/slideshow2" />
 
 
             <ImageView
@@ -38,7 +69,16 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:scaleType="fitStart"
-                app:srcCompat="@drawable/image3" />
+                app:srcCompat="@drawable/slideshow3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/slideshow4" />
+
         </ViewFlipper>
     </LinearLayout>
+
 </RelativeLayout>
