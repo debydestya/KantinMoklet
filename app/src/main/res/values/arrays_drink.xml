@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="drink">
+        <item> Es Jeruk / Jeruk Hangat </item>
+        <item> Es Hijau </item>
+        <item> Es Susu / Susu Hangat </item>
+        <item> Es Blewah </item>
+        <item> Es Teh / Teh Hangat </item>
+        <item> Es Nutrisari / Nutrisari Hangat </item>
+        <item> Chocolatos Hangat </item>
+        <item> Pop Ice </item>
+        <item> Aice</item>
+    </string-array>
+    <string-array name="drink_desc">
+        <item> Es Jeruk atau Jeruk Hangat adalah minuman yang banyak dijual di tempat makan. Di kantin Moklet, juga banyak yang menjual minuman ini.
+            Jeruk yang biasanya digunakan adalah jeruk nipis, atau jeruk peras. Sehingga, ada yang rasanya manis atau asam.
+        </item>
+        <item>Es Hijau bisa dibilang sebagai es yang sudah sangat familiar di telinga Mokleters tapi tidak bagi orang luar. Es Hijau adalah es buatan
+        salah satu penjual kantin disini. Es hijau ini rasanya sangat menyegarkan jika diminum saat siang hari. Isi dari es hijau adalah parutan ketimun,
+        parutan bengkuang dan parutan jelly yang kemudian dicampur dengan Sirup berwarna hijau.</item>
+        <item>Susu Hangat atau Es Susu. Adalah minuman yang banyak kita temui. Susu yang biasa digunakan adalah susu kental manis atau susu bubuk. Kita
+        dapat memilih rasa dari susu, yakni Vanila atau Coklat. </item>
+        <item> Es Blewah juga banyak kita temui di Kantin Moklet. Es ini terdiri atas serutan buah blewah yang dimasukkan ke dalam air yang telah dicampur dengan
+        Sirup. Ada beberapa kantin yang menambahkan cincau atau selasih pada es blewah.</item>
+        <item>Es Teh atau Teh Hanget sangat mudah ditemukan. Mengapa? karena semua kantin menjual minuman ini. Dan, rata rata orang Indonesia menganggap bahwa teh adalah minuman wajib
+        setelah makan</item>
+        <item>Nutrisari adalah minuman bubuk dengan rasa yang bermacam - macam. Di Kantin Moklet, hampir semua kantin menjual nutrisari. Karena, sangat banyak
+        sekali orang yang suka . Rasa yang disediakan juga lengkap, ada jeruk, jambu, teh jeruk, nipis, mangga, dll. </item>
+        <item>Chocolatos Hangat adalah salah satu produk minuman coklat. Rasa dari minuman ini sangat pahit jika kita tidak menambahkan banyak gula. Maka, jangan
+        lupa untuk meminta banyak gula agar minuman kita manis. </item>
+        <item>Pop Ice adalah salah satu produk minuman instan yang banyak disukai, baik oleh anak-anak, remaja, maupun dewasa. Banyak penjual kantin Moklet yang menyediakan
+        Pop Ice sebagai pilihan minuman. Rasa yang disediakan oleh penjual juga cukup banyak </item>
+        <item>Aice adalah sebuah brand Es Krim baru yang ada di Indonesia. Rasa dari Aice sangat unik dibandingkan es krim lainnya. Ada rasa jagung bakar, durian,
+        Oreo, dll. Selain itu, harga Aice ini termasuk murah jika dibandingkan dengan Es Krim Lainnya.</item>
+    </string-array>
+
+    <string-array name="drink_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+    </string-array>
+
+    <array name="drink_picture">
+        <item>@drawable/d1</item>
+        <item>@drawable/d2</item>
+        <item>@drawable/d3</item>
+        <item>@drawable/d4</item>
+        <item>@drawable/d5</item>
+        <item>@drawable/d6</item>
+        <item>@drawable/d7</item>
+        <item>@drawable/d8</item>
+        <item>@drawable/d9</item>
+    </array>
+</resources>
