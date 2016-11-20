@@ -1,6 +1,8 @@
 package id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.adapter;
 
 
+import android.content.Context;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,7 @@ public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
 {
 
     ArrayList<drink> drinkList;
+    IdrinkAdapter mIdrinkAdapter;
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -31,7 +34,7 @@ public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
 
         drink Drink = drinkList.get(position);
         holder.tvjudul.setText(Drink.judul);
-        holder.ivfoto.setImageDrawable(Drink.foto);
+        holder.ivfoto.setImageURI(Uri.parse(Drink.foto));
     }
 
     @Override
@@ -55,11 +58,23 @@ public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
             ivfoto = (ImageView) itemView.findViewById(R.id.imageViewDrink);
             tvjudul = (TextView) itemView.findViewById(R.id.textViewJudulD);
 
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mIdrinkAdapter.doClick(getAdapterPosition());
+                }
+            });
         }
     }
 
-    public drinkadapter(ArrayList<drink> drinkList)
+    public drinkadapter(Context context, ArrayList<drink> drinkList)
     {
         this.drinkList = drinkList;
+        mIdrinkAdapter = (IdrinkAdapter) context;
+    }
+
+    public interface IdrinkAdapter
+    {
+        void doClick(int pos);
     }
 }

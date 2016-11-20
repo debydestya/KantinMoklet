@@ -36,15 +36,16 @@
     </string-array>
 
     <string-array name="drink_locations">
-        <item>8 Rue Scribe, 75009 Paris, France</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
-        <item>New York City</item>
-        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
-        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
-        <item>Cape Town, South Africa</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
-        <item>New York City</item>
-        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>Kantin a</item>
+        <item>Kantin b</item>
+        <item>Kantin c</item>
+        <item>Kantin d</item>
+        <item>Kantin a</item>
+        <item>Kantin b</item>
+        <item>Kantin c</item>
+        <item>Kantin d</item>
+        <item>Kantin e</item>
+
     </string-array>
 
     <array name="drink_picture">
