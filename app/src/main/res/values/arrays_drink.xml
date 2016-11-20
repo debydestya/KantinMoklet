@@ -36,15 +36,15 @@
     </string-array>
 
     <string-array name="drink_locations">
-        <item>Kantin a</item>
-        <item>Kantin b</item>
-        <item>Kantin c</item>
-        <item>Kantin d</item>
-        <item>Kantin a</item>
-        <item>Kantin b</item>
-        <item>Kantin c</item>
-        <item>Kantin d</item>
-        <item>Kantin e</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
+        <item> Kantin Pak Yoyok, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Bu Titik</item>
+        <item> Kantin Bu Tini, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Yuyun, Kantin Bu Anik, Kantin Bu Indah</item>
+        <item> Kantin Aice</item>
+        <item> Kantin Aice, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
+        <item> Kantin Aice</item>
 
     </string-array>
 
