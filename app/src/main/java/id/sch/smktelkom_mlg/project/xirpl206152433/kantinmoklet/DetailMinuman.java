@@ -15,7 +15,8 @@ import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.drink;
 public class DetailMinuman extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_minuman);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -42,7 +43,7 @@ public class DetailMinuman extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 onBackPressed();
             }
         });
