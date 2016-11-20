@@ -12,45 +12,47 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.R;
-import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.drink;
+import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.food;
 
-public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
-{
+/**
+ * Created by fanani on 11/20/2016.
+ */
 
-    ArrayList<drink> drinkList;
-    IdrinkAdapter mIdrinkAdapter;
+public class foodadapter extends RecyclerView.Adapter<foodadapter.ViewHolder> {
 
-    public drinkadapter(Context context, ArrayList<drink> drinkList) {
-        this.drinkList = drinkList;
-        mIdrinkAdapter = (IdrinkAdapter) context;
+    ArrayList<food> foodList;
+    foodadapter.IfoodAdapter mIfoodAdapter;
+
+    public foodadapter(Context context, ArrayList<food> foodList) {
+        this.foodList = foodList;
+        mIfoodAdapter = (foodadapter.IfoodAdapter) context;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.drink_list,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.food_list, parent, false);
         ViewHolder vh = new ViewHolder(v);
 
         return vh;
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(foodadapter.ViewHolder holder, int position) {
 
-        drink Drink = drinkList.get(position);
-        holder.tvjudul.setText(Drink.judul);
-        holder.ivfoto.setImageURI(Uri.parse(Drink.foto));
+        food Food = foodList.get(position);
+        holder.tvjudul.setText(Food.judul);
+        holder.ivfoto.setImageURI(Uri.parse(Food.foto));
     }
 
     @Override
-    public int getItemCount()
-    {
+    public int getItemCount() {
 
-        if(drinkList!=null)
-            return drinkList.size();
+        if (foodList != null)
+            return foodList.size();
         return 0;
     }
 
-    public interface IdrinkAdapter {
+    public interface IfoodAdapter {
         void doClick(int pos);
     }
 
@@ -60,16 +62,15 @@ public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
         TextView tvjudul;
 
 
-        public ViewHolder(View itemView)
-        {
+        public ViewHolder(View itemView) {
             super(itemView);
-            ivfoto = (ImageView) itemView.findViewById(R.id.imageViewDrink);
+            ivfoto = (ImageView) itemView.findViewById(R.id.imageViewFood);
             tvjudul = (TextView) itemView.findViewById(R.id.textViewJudulD);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    mIdrinkAdapter.doClick(getAdapterPosition());
+                    mIfoodAdapter.doClick(getAdapterPosition());
                 }
             });
         }

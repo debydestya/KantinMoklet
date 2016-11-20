@@ -41,7 +41,8 @@
         <activity
             android:name=".DetailMinuman"
             android:label="@string/title_activity_detail_minuman"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailMakanan"></activity>
     </application>
 
 </manifest>
