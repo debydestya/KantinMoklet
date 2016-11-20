@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="food">
+        <item> Ayam Goreng Tepung </item>
+        <item> Ayam Kecap </item>
+        <item> Bakso </item>
+        <item> Cah Kangkung </item>
+        <item> Mie Ayam </item>
+        <item> Mie Instan </item>
+        <item> Nasi Pecel </item>
+        <item> Pop Mie </item>
+        <item> Nasi Rawon </item>
+        <item> Rempelo Hati Ayam </item>
+        <item> Sayur Sop </item>
+        <item> Samyang </item>
+        <item> Nasi Soto </item>
+    </string-array>
+    <string-array name="food_desc">
+        <item> Ayam Goreng Tepung adalah ayam yang dibalut di dalam tepung dan digoreng sehingga memiliki tekstur kulit yang renyah. Ayam goreng tepung yang dijual di kantin ada dalam beberapa pilihan. Yakni bagian dada, paha atas, paha bawah, sayap, dll. Harga satu porsi ayam goreng tepung + nasi bervariasi, mulai dari 7500 hingga 9000</item>
+        <item> Ayam Kecap merupakan menu olahan ayam yang banyak digemari di Kantin Moklet. </item>
+    </string-array>
+
+    <string-array name="food_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+
+    <array name="food_picture">
+        <item>@drawable/f1</item>
+        <item>@drawable/f2</item>
+        <item>@drawable/f3</item>
+        <item>@drawable/f4</item>
+        <item>@drawable/f5</item>
+        <item>@drawable/f6</item>
+        <item>@drawable/f8</item>
+        <item>@drawable/f9</item>
+        <item>@drawable/f10</item>
+        <item>@drawable/f11</item>
+        <item>@drawable/f12</item>
+        <item>@drawable/f13</item>
+        <item>@drawable/f14</item>
+        <item>@drawable/f15</item>
+        <item>@drawable/f16</item>
+        <item>@drawable/f17</item>
+        <item>@drawable/f18</item>
+    </array>
+</resources>
