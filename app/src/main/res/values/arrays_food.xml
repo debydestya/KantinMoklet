@@ -8,6 +8,10 @@
         <item> Cah Kangkung </item>
         <item> Mie Ayam </item>
         <item> Mie Instan </item>
+        <item> Nasi Goreng</item>
+        <item> Nasi Bakar</item>
+        <item> Nasi Campur</item>
+        <item> Nasi Ikan</item>
         <item> Nasi Pecel </item>
         <item> Pop Mie </item>
         <item> Nasi Rawon </item>
@@ -34,6 +38,13 @@
             Untuk di Kantin Moklet hanya satu stand saja yang menjual Mie Ayam, yaitu ada di Kantin Bu Yuyun. Join ya! </item>
         <item> Mie Instan adalah mie siap saji, yaitu yang proses memasaknya hanya direbus sebentar dengan mencampurkan bumbu yang sudah disipakan dalam kemasan.
             Mie Instan ini menyebar luas di Kanitn Moklet, karena sebagian besar Kantin menjual Mie Instan, baik yan uah maupun yang goreng</item>
+        <item> Nasi Goreng adalah Nasi yang digoreng bersama bumbu-bumbu yang telah dibuat sebelumnya, aroma Nasi Goreng ini sangat menggugah selera para Mokleters
+            apalagi waktu masih pagi yang baru dimasak. Untuk Nasi Goreng ini porsinya banyak lo, jadi buruan beli yaa...</item>
+        <item> Nasi Bakar adalah Nasi yang dibungkus daun pisang beserta lauk-lauknya, ada varian lauk di dalam Nasi Bakar ini yaitu ayam, ikan dan sebagainya.
+            Nasi Bakar ini hanya dijual di satu stand saja di  Kantin Moklet. Jadi sangat terbatas yaa, jadi jangan sampai kehabisan!</item>
+        <item> Nasi Campur adalah Makanan yang memiliki berbagai macam lauk yang dicampur-campur, jadi pembeli bisa memilih berbagai lauk makanan yangb diinginkan.
+            Tentunya harganya sesuai dengan lauk yang dipilih.</item>
+        <item> Nasi Ikan adalah Nasi yang hampir sama dengan Nasi Campur, yaitu bebas memilih lauk makanan terutama ikan laut. harganya tentunya sesuai dengan lauk yang dipilih</item>
         <item> Nasi Pecel adalah makanan yang menjadi slaha satu pilihan Mokleters karena penyajiannya yang tidak lama juga harganya yang bersahabat.
             Untuk pembeli Nasi Pecel biasa memilih lauk yang diinginkan, jadi harganya juga menyesuaikan yaa..</item>
         <item> Pop Mie adalah makanan cepat saji yang berbahan dasar mie. Sama halnya dengan mie instan, cuma bedanya kalau popmie ada cupnya tersendiri.
@@ -51,12 +62,25 @@
     </string-array>
 
     <string-array name="food_locations">
-        <item>8 Rue Scribe, 75009 Paris, France</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
-        <item>New York City</item>
-        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
-        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
-        <item>Cape Town, South Africa</item>
+        <item> Kantin Paling Barat</item>
+        <item> Kantin Bu Titin, Kantin Bu Marni</item>
+        <item> Kantin Bu Marni, Kanti Bu Indah</item>
+        <item> Kantin Bu Marni, Kantin Bu Titin</item>
+        <item> Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
+        <item> Kantin Pak Yoyok</item>
+        <item> Kantin Paling Barat</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun </item>
+        <item> Kantin Aice, Kantin Bu Indah, Kantin Bu Yuyun, Kantin Bu Tini</item>
+        <item> Kantin Bu Tini, Kantin Bu Marni</item>
+        <item>  Kantin Bu Marni, Kantin Bu Titin</item>
+        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
+        <item> Kantin Aice</item>
+        <item> Kantin Bu Tini, Kantin Bu Anik</item>
+
+
     </string-array>
 
     <array name="food_picture">
