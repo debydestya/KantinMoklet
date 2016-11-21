@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.R;
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.drink;
 
+
 public class drinkadapter extends RecyclerView.Adapter<drinkadapter.ViewHolder>
 {
 

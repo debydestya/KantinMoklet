@@ -31,10 +31,6 @@ public class Drink extends AppCompatActivity implements drinkadapter.IdrinkAdapt
     ArrayList<drink> mList = new ArrayList<>();
     drinkadapter mAdapter;
 
-    ArrayList<drink> mListAll = new ArrayList<>();
-    boolean isFiltered;
-    ArrayList<Integer> mListMapFilter = new ArrayList<>();
-    String mQuery;
 
     protected void onCreate(Bundle savedInstanceState)
     {

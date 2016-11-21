@@ -2,20 +2,17 @@ package id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model;
 
 import java.io.Serializable;
 
-/**
- * Created by fanani on 11/20/2016.
- */
 
 public class food implements Serializable {
-    public String judul;
-    public String deskripsi;
-    public String lokasi;
-    public String foto;
+    public String judulf;
+    public String deskripsif;
+    public String lokasif;
+    public String fotof;
 
-    public food(String judul, String deskripsi, String lokasi, String foto) {
-        this.judul = judul;
-        this.deskripsi = deskripsi;
-        this.lokasi = lokasi;
-        this.foto = foto;
+    public food(String judulf, String deskripsif, String lokasif, String fotof) {
+        this.judulf = judulf;
+        this.deskripsif = deskripsif;
+        this.lokasif = lokasif;
+        this.fotof = fotof;
     }
 }

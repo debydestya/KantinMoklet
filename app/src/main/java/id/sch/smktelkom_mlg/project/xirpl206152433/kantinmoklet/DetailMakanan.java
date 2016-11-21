@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet;
 
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -11,7 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.drink;
+import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.food;
 
 
 public class DetailMakanan extends AppCompatActivity
@@ -23,30 +22,31 @@ public class DetailMakanan extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_makanan);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
+            public void onClick(View view)
+            {
+                Snackbar.make(view, "Anda menyukai makanan ini^^", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
 
-        food Food =(food) getIntent().getSerializableExtra(id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.Food.FOOD);
-        setTitle(Food.judul);
-        ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
-        ivFoto.setImageURI(Uri.parse(Food.foto));
+        food Food = (food) getIntent().getSerializableExtra(id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.Food.FOOD);
+        setTitle(Food.judulf);
+        ImageView ivFoto = (ImageView) findViewById(R.id.imageFotoF);
+        ivFoto.setImageURI(Uri.parse(Food.fotof));
         TextView tvDeskripsi = (TextView) findViewById(R.id.food_detail);
-        tvDeskripsi.setText(Food.deskripsi+"\n\n");
+        tvDeskripsi.setText(Food.deskripsif);
         TextView tvLokasi = (TextView) findViewById(R.id.food_location);
-        tvLokasi.setText(Food.lokasi);
+        tvLokasi.setText(Food.lokasif);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 onBackPressed();
             }
         });

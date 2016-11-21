@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.adapter;
 
+
 import android.content.Context;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
@@ -14,65 +15,67 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.R;
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.food;
 
-/**
- * Created by fanani on 11/20/2016.
- */
-
-public class foodadapter extends RecyclerView.Adapter<foodadapter.ViewHolder> {
-
+public class foodadapter extends RecyclerView.Adapter<foodadapter.ViewHolder>
+{
     ArrayList<food> foodList;
-    foodadapter.IfoodAdapter mIfoodAdapter;
+    IfoodAdapter mIfoodAdapter;
 
-    public foodadapter(Context context, ArrayList<food> foodList) {
-        this.foodList = foodList;
-        mIfoodAdapter = (foodadapter.IfoodAdapter) context;
-    }
+
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.food_list, parent, false);
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
+    {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.food_list,parent,false);
         ViewHolder vh = new ViewHolder(v);
 
         return vh;
     }
 
     @Override
-    public void onBindViewHolder(foodadapter.ViewHolder holder, int position) {
-
+    public void onBindViewHolder(ViewHolder holder, int position)
+    {
         food Food = foodList.get(position);
-        holder.tvjudul.setText(Food.judul);
-        holder.ivfoto.setImageURI(Uri.parse(Food.foto));
+        holder.tvjudulf.setText(Food.judulf);
+        holder.ivfotof.setImageURI(Uri.parse(Food.fotof));
     }
 
     @Override
-    public int getItemCount() {
-
-        if (foodList != null)
+    public int getItemCount()
+    {
+        if (foodList!=null)
             return foodList.size();
         return 0;
     }
 
-    public interface IfoodAdapter {
-        void doClick(int pos);
-    }
+    public class ViewHolder extends RecyclerView.ViewHolder
+    {
+        ImageView ivfotof;
+        TextView tvjudulf;
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-
-        ImageView ivfoto;
-        TextView tvjudul;
-
-
-        public ViewHolder(View itemView) {
+        public ViewHolder(View itemView)
+        {
             super(itemView);
-            ivfoto = (ImageView) itemView.findViewById(R.id.imageViewFood);
-            tvjudul = (TextView) itemView.findViewById(R.id.textViewJudulD);
+            ivfotof = (ImageView) itemView.findViewById(R.id.imageViewFood);
+            tvjudulf = (TextView) itemView.findViewById(R.id.textViewJudulF);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v) {
+                public void onClick(View v)
+                {
                     mIfoodAdapter.doClick(getAdapterPosition());
                 }
             });
         }
+    }
+
+    public foodadapter(Context context, ArrayList<food> foodList)
+    {
+        this.foodList = foodList;
+        mIfoodAdapter = (IfoodAdapter) context;
+    }
+
+    public interface IfoodAdapter
+    {
+        void doClick(int pos);
     }
 }

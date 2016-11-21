@@ -23,7 +23,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageButton
-                android:id="@+id/imageFoto"
+                android:id="@+id/imageFotoF"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
@@ -41,7 +41,7 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_detail_minuman" />
+    <include layout="@layout/content_detail_makanan" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
