@@ -39,7 +39,7 @@ public class DetailMakanan extends AppCompatActivity
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFotoF);
         ivFoto.setImageURI(Uri.parse(Food.fotof));
         TextView tvDeskripsi = (TextView) findViewById(R.id.food_detail);
-        tvDeskripsi.setText(Food.deskripsif);
+        tvDeskripsi.setText(Food.deskripsif + "\n\n");
         TextView tvLokasi = (TextView) findViewById(R.id.food_location);
         tvLokasi.setText(Food.lokasif);
 
