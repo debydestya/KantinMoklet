@@ -60,7 +60,9 @@
         <activity
             android:name=".DetailMakanan"
             android:label="@string/title_activity_detail_makanan"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
 
         <activity android:name="id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.WelcomeActivity">
             <intent-filter>

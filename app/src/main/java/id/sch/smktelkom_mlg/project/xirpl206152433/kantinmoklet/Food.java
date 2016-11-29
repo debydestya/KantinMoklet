@@ -8,12 +8,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.ViewFlipper;
 
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.adapter.foodadapter;
-import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.drink;
 import id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.model.food;
 
 
