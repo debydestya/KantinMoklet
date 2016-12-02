@@ -62,23 +62,23 @@
     </string-array>
 
     <string-array name="food_locations">
-        <item> Kantin Paling Barat</item>
-        <item> Kantin Bu Titin, Kantin Bu Marni</item>
-        <item> Kantin Bu Marni, Kanti Bu Indah</item>
-        <item> Kantin Bu Marni, Kantin Bu Titin</item>
-        <item> Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
-        <item> Kantin Pak Yoyok</item>
-        <item> Kantin Paling Barat</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun </item>
-        <item> Kantin Aice, Kantin Bu Indah, Kantin Bu Yuyun, Kantin Bu Tini</item>
-        <item> Kantin Bu Tini, Kantin Bu Marni</item>
-        <item>  Kantin Bu Marni, Kantin Bu Titin</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Indah, Kantin Bu Marni, Kantin Bu Anik, Kantin Bu Yuyun</item>
-        <item> Kantin Aice</item>
-        <item> Kantin Bu Tini, Kantin Bu Anik</item>
+        <item> 9. Kantin Dian</item>
+        <item> 5. Kantin Bu Titin \n6. Kantin Bu Marni</item>
+        <item> 3. Kantin Bu Indah \n6. Kantin Bu Marni</item>
+        <item> 5.Kantin Bu Titin \n6. Kantin Bu Marni</item>
+        <item> 7. Kantin Bu Yuyun</item>
+        <item> 1. Kantin Bu Tini  \n3. Kantin Bu Indah \n4. Kantin Bu Anik  \n5. Kantin Bu Titik \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 2. Kantin Pak Yoyok</item>
+        <item> 9. Kantin Dian</item>
+        <item> 1. Kantin Bu Tini  \n3. Kantin Bu Indah \n4. Kantin Bu Anik  \n5. Kantin Bu Titik \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 1. Kantin Bu Tini  \n3. Kantin Bu Indah \n4. Kantin Bu Anik  \n5. Kantin Bu Titik \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 1. Kantin Bu Tini  \n3. Kantin Bu Indah \n4. Kantin Bu Anik  \n5. Kantin Bu Titik \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice </item>
+        <item> 1. Kantin Bu Tini \n3. Kantin Bu Indah \n7. Kantin Bu Yuyun  \n8. Kantin Aice</item>
+        <item> 1. Kantin Bu Tini \n6. Kantin Bu Marni</item>
+        <item> 5. Kantin Bu Titin \n6. Kantin Bu Marni </item>
+        <item> 1. Kantin Bu Tini  \n3. Kantin Bu Indah \n4. Kantin Bu Anik  \n5. Kantin Bu Titik \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 8. Kantin Aice</item>
+        <item> 1. Kantin Bu Tini \n4. Kantin Bu Anik</item>
 
 
     </string-array>

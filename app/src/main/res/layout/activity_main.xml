@@ -1,84 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="id.sch.smktelkom_mlg.project.xirpl206152433.kantinmoklet.MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingTop="258dp"
+        android:paddingLeft="16dp"
         android:text="Pilih Kategori"
         android:textSize="24dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
 
     <ImageView
         android:id="@+id/imageView0"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="120dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
         android:onClick="list_food"
-        app:srcCompat="@drawable/food0" />
+        app:srcCompat="@drawable/food0"
+        android:layout_height="100dp" />
 
     <ImageView
         android:id="@+id/imageViewD"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
         android:onClick="list_drink"
         app:srcCompat="@drawable/drink" />
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Favorit"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
 
-        <ViewFlipper
-            android:id="@+id/viewFlipper"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvFav" />
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/slideshow1" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/slideshow2" />
-
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/slideshow3" />
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/slideshow4" />
-
-        </ViewFlipper>
-    </LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>

@@ -31,6 +31,11 @@ public class Drink extends AppCompatActivity implements drinkadapter.IdrinkAdapt
     ArrayList<drink> mList = new ArrayList<>();
     drinkadapter mAdapter;
 
+    ArrayList<drink> mListAll = new ArrayList<>();
+    boolean isFiltered;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
+    String mQuery;
+
 
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -81,4 +86,69 @@ public class Drink extends AppCompatActivity implements drinkadapter.IdrinkAdapt
         intent.putExtra(DRINK,mList.get(pos));
         startActivity(intent);
     }
+    
+    @Override
+    public boolean onCreateOptionsMenu (Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.menu_drink_list, menu);
+        
+        MenuItem searchItem = menu.findItem(R.id.actionsearch);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+        
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() 
+        {
+            @Override
+            public boolean onQueryTextSubmit(String query) 
+            {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) 
+            {
+                mQuery = newText.toLowerCase();
+                doFilter(mQuery);
+                return true;
+            }
+        });
+        
+        return true;
+    }
+
+    private void doFilter(String query)
+    {
+        if (!isFiltered)
+        {
+            mListAll.clear();
+            mListAll.addAll(mList);
+            isFiltered =  true;
+        }
+
+        mList.clear();
+        if (query ==  null || query.isEmpty())
+        {
+            mList.addAll(mListAll);
+            isFiltered = false;
+        }
+
+        else
+        {
+            mListMapFilter.clear();
+            for (int i = 0; i < mListAll.size(); i++)
+            {
+                drink Drink = mListAll.get(i);
+                if (Drink.judul.toLowerCase().contains(query)||
+                    Drink.deskripsi.toLowerCase().contains(query)||
+                    Drink.lokasi.toLowerCase().contains(query))
+                {
+                    mList.add(Drink);
+                    mListMapFilter.add(i);
+                }
+
+
+            }
+        }
+        mAdapter.notifyDataSetChanged();
+    }
+
 }

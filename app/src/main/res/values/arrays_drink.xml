@@ -36,15 +36,15 @@
     </string-array>
 
     <string-array name="drink_locations">
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
-        <item> Kantin Pak Yoyok, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Bu Titik</item>
-        <item> Kantin Bu Tini, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
-        <item> Kantin Bu Tini, Kantin Aice, Kantin Bu Titik, Kantin Bu Marni, Kantin Bu Yuyun, Kantin Bu Anik, Kantin Bu Indah</item>
-        <item> Kantin Aice</item>
-        <item> Kantin Aice, Kantin Bu Marni, Kantin Bu Indah, Kantin Bu Yuyun</item>
-        <item> Kantin Aice</item>
+        <item> 1. Kantin Bu Tini \n3. Kantin Bu Indah \n5. Kantin Bu Titik \n6. Kantin Bu Marni \n7. Kantin Bu Yuyun \n8. Kantin Aice </item>
+        <item> 2. Kantin Pak Yoyok</item>
+        <item> 1. Kantin Bu Tini \n3. Kantin Bu Indah \n6. Kantin Bu Marni  \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 1. Kantin Bu Tini \n5. Kantin Bu Titik</item>
+        <item> 1. Kantin Bu Tini \n5. Kantin Bu Titik \n6. Kantin Bu Marni \n3. Kantin Bu Indah \n7. Kantin Bu Yuyun</item>
+        <item> 1. Kantin Bu Tini \n3. Kantin Bu Indah \n4. Kantin Bu Anik \n5. Kantin Bu Titik \n6. Kantin Bu Marni \n7. Kantin Bu Yuyun \n8. Kantin Aice </item>
+        <item> 8. Kantin Aice</item>
+        <item> 3. Kantin Bu Indah \n6. Kantin Bu Marni \n7. Kantin Bu Yuyun \n8. Kantin Aice</item>
+        <item> 8. Kantin Aice</item>
 
     </string-array>
 
