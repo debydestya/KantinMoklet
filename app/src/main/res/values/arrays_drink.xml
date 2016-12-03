@@ -15,24 +15,32 @@
     <string-array name="drink_desc">
         <item> Es Jeruk atau Jeruk Hangat adalah minuman yang banyak dijual di tempat makan. Di kantin Moklet, juga banyak yang menjual minuman ini.
             Jeruk yang biasanya digunakan adalah jeruk nipis, atau jeruk peras. Sehingga, ada yang rasanya manis atau asam.
+            Harga Es Jeruk ini terjangkau, yaitu Rp3000.
         </item>
         <item>Es Hijau bisa dibilang sebagai es yang sudah sangat familiar di telinga Mokleters tapi tidak bagi orang luar. Es Hijau adalah es buatan
         salah satu penjual kantin disini. Es hijau ini rasanya sangat menyegarkan jika diminum saat siang hari. Isi dari es hijau adalah parutan ketimun,
-        parutan bengkuang dan parutan jelly yang kemudian dicampur dengan Sirup berwarna hijau.</item>
+        parutan bengkuang dan parutan jelly yang kemudian dicampur dengan Sirup berwarna hijau.
+        Dengan harga Rp2500 kalian bisa menikmati es ini</item>
         <item>Susu Hangat atau Es Susu. Adalah minuman yang banyak kita temui. Susu yang biasa digunakan adalah susu kental manis atau susu bubuk. Kita
-        dapat memilih rasa dari susu, yakni Vanila atau Coklat. </item>
+        dapat memilih rasa dari susu, yakni Vanila atau Coklat.
+        Harganya hanya Rp3000 ya</item>
         <item> Es Blewah juga banyak kita temui di Kantin Moklet. Es ini terdiri atas serutan buah blewah yang dimasukkan ke dalam air yang telah dicampur dengan
-        Sirup. Ada beberapa kantin yang menambahkan cincau atau selasih pada es blewah.</item>
-        <item>Es Teh atau Teh Hanget sangat mudah ditemukan. Mengapa? karena semua kantin menjual minuman ini. Dan, rata rata orang Indonesia menganggap bahwa teh adalah minuman wajib
-        setelah makan</item>
+        Sirup. Ada beberapa kantin yang menambahkan cincau atau selasih pada es blewah.
+        Dengan harga Rp2500 kalian bisa menikmati Es B;ewah yang segar</item>
+        <item>Es Teh atau Teh Hanget sangat mudah ditemukan. Mengapa? karena semua kantin menjual minuman ini. Dan, rata rata orang Indonesia menganggap bahwa teh adalah minuman wajib setelah makan.
+        Dengan harga yang murah, yaitu Rp2500</item>
         <item>Nutrisari adalah minuman bubuk dengan rasa yang bermacam - macam. Di Kantin Moklet, hampir semua kantin menjual nutrisari. Karena, sangat banyak
-        sekali orang yang suka . Rasa yang disediakan juga lengkap, ada jeruk, jambu, teh jeruk, nipis, mangga, dll. </item>
-        <item>Chocolatos Hangat adalah salah satu produk minuman coklat. Rasa dari minuman ini sangat pahit jika kita tidak menambahkan banyak gula. Maka, jangan
-        lupa untuk meminta banyak gula agar minuman kita manis. </item>
+        sekali orang yang suka . Rasa yang disediakan juga lengkap, ada jeruk, jambu, teh jeruk, nipis, mangga, dll.
+        Nutrisari ini seharga RP3000 saja lo</item>
+        <item>Chocolatos Hangat/ Es adalah salah satu produk minuman coklat. Rasa dari minuman ini sangat pahit jika kita tidak menambahkan banyak gula. Maka, jangan
+        lupa untuk meminta banyak gula agar minuman kita manis.
+        Harga Chocolatos hangat/ es hanya RP3000</item>
         <item>Pop Ice adalah salah satu produk minuman instan yang banyak disukai, baik oleh anak-anak, remaja, maupun dewasa. Banyak penjual kantin Moklet yang menyediakan
-        Pop Ice sebagai pilihan minuman. Rasa yang disediakan oleh penjual juga cukup banyak </item>
+        Pop Ice sebagai pilihan minuman. Rasa yang disediakan oleh penjual juga cukup banyak.
+        Dengan budget Rp3000 kalian bisa menikmati pop ice.</item>
         <item>Aice adalah sebuah brand Es Krim baru yang ada di Indonesia. Rasa dari Aice sangat unik dibandingkan es krim lainnya. Ada rasa jagung bakar, durian,
-        Oreo, dll. Selain itu, harga Aice ini termasuk murah jika dibandingkan dengan Es Krim Lainnya.</item>
+        Oreo, dll. Selain itu, harga Aice ini termasuk murah jika dibandingkan dengan Es Krim Lainnya.
+        Harganya bervariasi, terrgantung rasa yang dipilih ya. Mulai dari Rp3000 sampai dengan RP5000.</item>
     </string-array>
 
     <string-array name="drink_locations">
